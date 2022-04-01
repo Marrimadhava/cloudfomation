@@ -15,6 +15,6 @@ Resources:
   WebServerInstance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-03e88be9ecff64781
+      ImageId: ami-0c02fb55956c7d316
       InstanceType: !Ref InstanceType
-      KeyName: shyam
+      KeyName: frinds
